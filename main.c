@@ -1,8 +1,8 @@
 #include "prog.h"
 
 void err_command() {
-    printf("usage: ./project04 -e \"expr\" -b\n");
-    printf("  example: ./project04 -e \"1 + 2\" -b 2\n");
+    printf("usage: ./prog -e \"expr\" -b\n");
+    printf("  example: ./prog -e \"1 + 2\" -b 2\n");
     exit(-1);
 }
 
